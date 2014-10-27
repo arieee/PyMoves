@@ -20,7 +20,7 @@ def authorization():
 
         print "get access token"
         tempCode = u"" # INPUT code got by above redirect URL
-        #print m.auth(tempCode) # when you get tempCode, comment out this line, get access_token and write it on USERINFO
+        if tempCode: print m.auth(tempCode) # After you get tempCode, get access_token and write it on USERINFO
 
 
 def test(date = datetime.datetime.today().strftime("%Y%m%d")):
