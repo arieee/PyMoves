@@ -1,2 +1,5 @@
+*~
 *.pyc
-*.git
+USERINFO.tsv
+PLACEINFO.tsv
+labtweet.py
