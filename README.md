@@ -36,12 +36,14 @@ def authorization():
     ---
 ```
 
+Now you again execute authorization() func
+
 ```
 import moves
 moves.authorization()
 ```
 
-Now you again execute authorization() func, you get access_token and write it on USERINFO
+You will get access_token and write it on USERINFO.tsv with other your information
 
 ```USERINFO.tsv
 <<< client_id >>>
