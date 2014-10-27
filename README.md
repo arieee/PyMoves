@@ -22,8 +22,8 @@ At first, you should authorize yourself and register your place on PLACEINFO.tsv
 ## Authorization
 
 ```
-from moves
-m.authorization()
+import moves
+moves.authorization()
 ```
 
 Access the URL, input PIN code and then get code from redirect URL.
@@ -32,7 +32,7 @@ then, you put code into moves.py.
 ```
 def authorization():
     ---
-    tempCode = u" WRITE CODE YOU HAVE GOT"
+    tempCode = u" WRITE CODE YOU HAVE GOT IN THIS SPACE"
     ---
 ```
 
@@ -56,7 +56,7 @@ You will get access_token and write it on USERINFO.tsv with other your informati
 
 
 ## register your places on PLACEINFO.tsv
-you need to your "home" or "office" placeID on PLACEINFO
+you need to your "home" or "office" placeID on PLACEINFO.tsv
 
 you can confirm placeID in this way
 
