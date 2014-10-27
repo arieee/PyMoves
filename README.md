@@ -1,4 +1,4 @@
-# python library to get staying time and activity data from Moves API
+#get time data spent on staying somewhere and your activity data from Moves API
 
 ## Example Usage
 
@@ -18,7 +18,6 @@ print s.getActivityMeter("running")
 ```
 
 At first, you should authorize yourself and register your place on PLACEINFO.tsv
-
 
 ## Authorization
 
