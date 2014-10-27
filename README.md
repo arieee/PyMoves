@@ -1,4 +1,4 @@
-#get time data spent on staying somewhere and your activity data from Moves API
+#python library to get staying time and your activity data easily from Moves API
 
 ## Example Usage
 
